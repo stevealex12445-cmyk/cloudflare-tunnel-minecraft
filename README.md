@@ -1,5 +1,12 @@
 # CF 隧道 Minecraft 联机客户端
 
+## 前置依赖
+
+本工具需要依赖 [cloudflared](https://github.com/cloudflare/cloudflared/releases) （Cloudflare 官方提供的隧道客户端）。
+
+请根据你的系统下载对应版本并安装：
+- Windows: `cloudflared-windows-amd64.exe`
+
 本项目是一个 **客户端工具**，用于通过 **Cloudflare Tunnel** 建立隧道连接，从而实现 **Minecraft 服务器的多人联机**。  
 
 ⚠️ 注意事项：
