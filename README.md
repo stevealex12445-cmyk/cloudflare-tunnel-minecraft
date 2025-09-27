@@ -1,5 +1,13 @@
 # CF 隧道 Minecraft 联机客户端
 
+⚠️ 注意  
+本工具仅作为 **客户端连接器** 使用，需要依赖已经配置好的 **Cloudflare Tunnel 服务端**。  
+它不会自动创建或配置隧道，请先在服务端完成 Cloudflare Tunnel 的配置，再使用本工具进行连接。  
+
+⚠️ 注意  
+本工具目前仅支持通过 **TCP 协议** 连接至对端的 **25565 端口**（Minecraft 默认端口）。  
+其他协议或端口暂不支持。  
+
 ## 前置依赖
 
 本工具需要依赖 [cloudflared](https://github.com/cloudflare/cloudflared/releases) （Cloudflare 官方提供的隧道客户端）。
